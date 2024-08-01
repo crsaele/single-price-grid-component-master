@@ -19,6 +19,41 @@
 
 body {
   font-family: var(--karla);
+  background-color: var(--lightGray);
+}
+
+h1 {
+    color: var(--cyan);
+}
+
+h3 {
+    color: #fff;
+}
+
+ul li {
+    list-style-type: none;
+    color: var(--lightGray);
+}
+
+article {
+    background-color: var(--cyan);
+}
+
+button {
+    background-color: var(--brightYellow);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 3rem;
+}
+
+footer {
+    background-color: #0ecaca;
+}
+
+.hero-text {
+    color: var(--brightYellow);
+    font-weight: 700;
 }
 
 .attribution {
